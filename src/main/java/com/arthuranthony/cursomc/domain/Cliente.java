@@ -49,9 +49,7 @@ public class Cliente implements Serializable{
 		this.cpfOuCnpj = cpfOuCnpj;
 		this.tipo = tipo.getCod();
 	}
-
-
-
+	
 	public Integer getId() {
 		return id;
 	}
@@ -123,9 +121,7 @@ public class Cliente implements Serializable{
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		return result;
 	}
-
-
-
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
